@@ -10,11 +10,13 @@ html	{
 	font-size: 16px;
 }
 body	{
-	width: 70%;
 	margin: 0 auto;
 	padding: 0 auto;
 	text-align: center;
 	font-family: Arial;
+}
+.container{
+	width: 70%;
 }
 header	{
 	padding: 15px 0px 10px;
@@ -62,6 +64,16 @@ nav a{
 a:hover{
 	color:#660033;
 }
+a:visited{
+	color:#000;
+}
+a:active{
+	background-color:#0000FF;
+}
+a:focus{
+	font-weight: bold;
+}
+
 .container	{
 	margin: 0px auto;
 	clear: both;
