@@ -98,3 +98,24 @@ footer > p	{
 ul {
 	list-style-type: none;
   }
+
+  table {
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2%;
+  }
+  
+  table, th, td {
+	border: 1px solid black;
+  }
+  th {
+	text-align: center;
+	padding: 15px;
+  }
+  td {
+	text-align: left;
+	padding: 15px;
+  }
+
+  tr:nth-child(even) {background-color: #e5ccff;}
