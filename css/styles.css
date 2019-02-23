@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 *	{
 	box-sizing: border-box;
 }
@@ -13,7 +15,8 @@ body	{
 	margin: 0 auto;
 	padding: 0 auto;
 	text-align: center;
-	font-family: Arial;
+	font-family: 'Roboto', sans-serif;
+
 }
 .container{
 	width: 70%;
@@ -159,9 +162,12 @@ ul {
 
 #primary_nav_wrap ul li.current-menu-item
 {
-	background:#ddd
+	background:#ddd;
 }
-
+#primary_nav_wrap ul li
+{
+	transition: 0.5s;
+}
 #primary_nav_wrap ul li:hover
 {
 	background:#f6f6f6
